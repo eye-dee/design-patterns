@@ -1,0 +1,59 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Create a contact successfully",
+        "description": "",
+        "id": "test-contact-api;create-a-contact-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 477681,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "empty list",
+            "match": {
+              "location": "AvlSteps.java:11"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14733,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user saves the new contact",
+            "match": {
+              "location": "AvlSteps.java:13"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9501,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the save \u0027CREATED\u0027",
+            "match": {
+              "location": "AvlSteps.java:15"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Contact API",
+    "description": "  In this feature file, REST api for the contact, will be tested.",
+    "id": "test-contact-api",
+    "keyword": "Feature",
+    "uri": "features/tree.feature",
+    "tags": []
+  }
+]
